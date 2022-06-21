@@ -1,0 +1,57 @@
+*{
+  background-color: black;
+  
+}
+
+div{
+ margin-left: 50px;
+}
+
+img{
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  
+}
+
+.container{
+  
+  display: inline;
+  align-items: center;
+}
+
+.cards{
+  height: 400px;
+  width: auto;
+  border-style: solid;
+  border-color: red;
+  border-radius: 15px;
+  color: aliceblue;
+  background-color: black;
+  display: inline-block;
+  justify-content: space-around;
+  margin: 20px 20px;
+}
+
+.cards:hover{
+  transform: scale(1.1);
+}
+h1,p{
+  text-align: center;
+  color: aliceblue;
+}
+
+button{
+  background-color: rgb(175, 223, 207);
+  border-style: solid ;
+  border-radius: 30px;
+  font-weight: bold;
+ margin: 0 70px;
+ width: 100px;
+ height: 40px;
+
+}
+
+button:hover{
+  transform: scale(1.1);
+}
